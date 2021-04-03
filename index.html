@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    float: left;
+    background-color: rgb(203, 203, 235);
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+.searchbar {
+
+    position: absolute; 
+    visibility: visible; 
+    left: 35%; 
+    top: 35%; 
+    height: 100px; 
+    width: 150px; 
+    z-index: 200;
+
+}
+
+.searchlib {
+    display: flex;
+    position: relative;
+    top: 50px;
+    flex-direction: row;
+}
+
+</style>
+
+
+
+<div id="navbar">
+<ul>
+    <li><a href="">Gmail</a></li>
+    <li><a href="">Maps</a></li>
+    <li><a href="">Translate</a></li>
+</ul>
+</div>
+
+
+
+
+
+<div class="searchbar">
+    <img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png>
+    <div class="searchlib">
+        <input type="text" placeholder="Search">
+        <button type="submit">search</button>
+    </div>
+    
+</div>
+</html>
